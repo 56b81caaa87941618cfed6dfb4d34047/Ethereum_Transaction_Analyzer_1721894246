@@ -54,7 +54,16 @@ Vue.component("purple_header_component_1721894250", {
     
             </div>
         </div>
-    </header>`,
+    </header>
+    <div class="flex">
+        <div id="sidebar" class="w-64 h-screen bg-slate-800 text-white p-5">
+            <ul>
+                <li class="mb-4"><a href="Home.html" class="flex items-center"><i class='bx bx-home mr-2'></i>Home</a></li>
+                <li class="mb-4"><a href="About.html" class="flex items-center"><i class='bx bx-info-circle mr-2'></i>About</a></li>
+                <li class="mb-4"><a href="Contact.html" class="flex items-center"><i class='bx bx-envelope mr-2'></i>Contact</a></li>
+            </ul>
+        </div>
+        <div class="flex-1">
         data() {
             return {
                 expanded: false, 
