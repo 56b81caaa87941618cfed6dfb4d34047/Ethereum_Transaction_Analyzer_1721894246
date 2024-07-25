@@ -1,5 +1,14 @@
 [
     {
+        "role": "chat_qna",
+        "content": "{\"status\": \"success\", \"qna\": [{\"question 1\": \"How would you like the sidebar to behave on different screen sizes (e.g., mobile, tablet, desktop)?\", \"option1\": \"It should collapse into a hamburger menu on mobile devices.\", \"option2\": \"Remain fully visible on all devices.\"}, {\"question 2\": \"Should the sidebar have a fixed position or scroll with the page content?\", \"option1\": \"Fixed position so it stays accessible as users scroll.\", \"option2\": \"Scroll with the page for a more traditional layout.\"}], \"input_token_count\": 266, \"output_token_count\": 116, \"time_taken\": \"0:00:04.646072\"}",
+        "message_id": "guest25072024075753",
+        "timestamp": "25072024075759",
+        "component_file_name": "purple_header_component_1721894250",
+        "div_id": "",
+        "div_action": ""
+    },
+    {
         "role": "chat_acknowledge",
         "content": "Working on adding a sidebar with Home, About and Contact navlinks.",
         "message_id": "guest25072024075753",
